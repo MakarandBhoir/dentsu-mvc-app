@@ -5,7 +5,7 @@ stages:
   - stage: 
     displayName: Build
     jobs:
-      - job: Job A
+      - job: JobA
         pool: 
           vmImage: window-latest
         steps:

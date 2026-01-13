@@ -1,0 +1,20 @@
+trigger:
+- main
+
+stages:
+  - stage: 
+    displayName: Build
+    jobs:
+      - job: JobA
+        pool: 
+          vmImage: windows-latest
+        steps:
+         - script: echo 'Hello from Job A'
+           displayName: "Job A"
+      
+      - job: JobB
+        pool:
+          name: dentsu-pool
+        steps:
+          - script: echo 'Hello from Job B'
+            displayName: "Job B"

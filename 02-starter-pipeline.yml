@@ -1,0 +1,10 @@
+trigger:
+- main
+
+# pool:
+#   vmImage: ubuntu-latest
+
+steps:
+- script: echo Executing pipeline on my agent.
+  displayName: 'Run on self-hosted agent'
+

@@ -1,8 +1,9 @@
 trigger:
 - main
 
-# pool:
-#   vmImage: ubuntu-latest
+pool:
+  # vmImage: ubuntu-latest
+  name: dentsu-pool
 
 steps:
 - script: echo Executing pipeline on my agent.

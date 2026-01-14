@@ -9,7 +9,8 @@ stages:
         variables: 
           BuildConfiguration: Release
         pool:
-          vmImage: ubuntu-latest
+          # vmImage: ubuntu-latest
+          name: dentsu-pool
         steps:
           - task: DotNetCoreCLI@2
             inputs:

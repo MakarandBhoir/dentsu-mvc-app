@@ -1,0 +1,16 @@
+trigger:
+- main
+
+stages:
+  - stage: 
+    displayName: Build
+    jobs:
+      - job: JobA
+        pool: 
+          vmImage: windows-latest
+        steps:
+         - task: CmdLine@2
+           inputs:
+             script: 'echo Hello from Job A'
+             
+         - script: echo 'Hello from Job A'

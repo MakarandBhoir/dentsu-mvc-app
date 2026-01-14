@@ -1,0 +1,11 @@
+trigger:
+- main
+
+pool:
+  # vmImage: ubuntu-latest
+  name: dentsu-pool
+
+steps:
+- script: echo Executing pipeline on my agent.
+  displayName: 'Run on self-hosted agent'
+

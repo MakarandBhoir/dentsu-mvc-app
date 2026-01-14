@@ -28,3 +28,4 @@ D:\Training\Aprameyah\AZ-400\Workspace\dentsu-mvc-app\obj\Debug\net8.0\refint\de
 D:\Training\Aprameyah\AZ-400\Workspace\dentsu-mvc-app\obj\Debug\net8.0\dentsu-mvc-app.pdb
 D:\Training\Aprameyah\AZ-400\Workspace\dentsu-mvc-app\obj\Debug\net8.0\dentsu-mvc-app.genruntimeconfig.cache
 D:\Training\Aprameyah\AZ-400\Workspace\dentsu-mvc-app\obj\Debug\net8.0\ref\dentsu-mvc-app.dll
+D:\Training\Aprameyah\AZ-400\Workspace\dentsu-mvc-app\obj\Debug\net8.0\dentsu-mvc-app.sourcelink.json

@@ -1,0 +1,20 @@
+trigger:
+- main
+
+stages:
+  - stage: 
+    displayName: Build
+    jobs:
+      - job: VariableJob
+        pool:
+          vmImage: windows-2025
+        steps:
+          - script: |
+              echo 'Agent.Name = $(Agent.Name)'
+              echo 'Agent.MachineName = $(Agent.MachineName)'
+              echo 'Agent.WorkFolder = $(Agent.WorkFolder)'
+              echo 'Build.BuildNumber = $(Build.BuildNumber)'
+              echo 'Build.ArtifactStagingDirectory = $(Build.ArtifactStagingDirectory)'
+              echo 'Build.SourcesDirectory = $(Build.SourcesDirectory)'
+              echo 'Build.BinariesDirectory = $(Build.BinariesDirectory) '
+            displayName: "Predifined Variables"

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dentsu-mvc-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4423a0c0cd7f65452ecfdacaf23dc1121505ff4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c54103ae25b77317d6f95248e84f077667aa9424")]
 [assembly: System.Reflection.AssemblyProductAttribute("dentsu-mvc-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dentsu-mvc-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
